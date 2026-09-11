@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { jsPDF } from "jspdf";
 import "./App.css";
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [resume, setResume] = useState("");
@@ -62,7 +63,7 @@ useEffect(() => {
       formData.append("resume", file);
 
       const response = await fetch(
-        "http://localhost:5000/api/extract-pdf",
+        `${API_URL}/api/extract-pdf`,
         {
           method: "POST",
           body: formData,
@@ -108,7 +109,7 @@ useEffect(() => {
 
   try {
     const response = await fetch(
-      "http://localhost:5000/api/analyze-resume",
+      `${API_URL}/api/analyze-resume`,
       {
         method: "POST",
         headers: {
