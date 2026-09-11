@@ -62,7 +62,7 @@ The application uses a **React frontend**, **Node.js + Express backend**, and **
 - Suggestions count
 
 ### Project Structure 
-AI-Resume-Analyzer/
+   AI-Resume-Analyzer/
 │
 ├── client/
 │   ├── public/
