@@ -61,7 +61,7 @@ The application uses a **React frontend**, **Node.js + Express backend**, and **
 - Strengths count
 - Suggestions count
 
-### Project Structure 
+### 📂 Project Structure
 ```text
 AI-Resume-Analyzer/
 │
