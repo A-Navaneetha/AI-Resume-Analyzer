@@ -62,8 +62,7 @@ The application uses a **React frontend**, **Node.js + Express backend**, and **
 - Suggestions count
 
 ### Project Structure 
-   
-'''
+```text
 AI-Resume-Analyzer/
 │
 ├── client/
@@ -88,7 +87,7 @@ AI-Resume-Analyzer/
 │
 ├── .gitignore
 └── README.md
-'''
+```
 
 ### 📥 PDF Report
 - Generate a professional resume analysis report
